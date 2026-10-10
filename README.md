@@ -9,10 +9,13 @@ CCH (Coca-Cola HBC AG)
 
 #WHY
 I wanted to automate my trading efficiently instead of spending time staring at my screen, inaccurately drawing guidelines which would fail anyways
+
 I started out drawing triangles to show volatility spikes but i wanted to use them to buy because a strategy is useless if you don't do it
-I'm interested in a career in equity investment consulting
+
+I'm interested in a career in equity investment consulting and optimising for efficiency is cool
 
 #Results 
+
 (backtested on CCH (Coca-Cola HBC AG, 1W timeframe)
 
 Total profit - +211.71%
