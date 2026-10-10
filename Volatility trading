@@ -1,0 +1,16 @@
+//@version=6
+strategy("volatility buying", overlay=true)
+
+// buy/ sell conditions
+
+Bigspike = close > (open * 1.09)
+Sadspike = open > (close * 1.07)
+
+
+// buy when candle closes at +9% of open
+if Bigspike
+    strategy.entry("Long trade", strategy.long)
+
+// sell when candle closes at -7% of open
+if Sadspike
+    strategy.close("Long trade")
